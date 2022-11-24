@@ -1,0 +1,43 @@
+:root {
+    --color-text: #757575;
+    --color-title: #212121;
+    --color-selected: #2196F3;
+    --color-background: #F5F4FA;
+}
+
+body {
+    background-color: #FFFFFF;
+    color: var(--color-text);
+}
+
+.list {
+    list-style-type: none;
+}
+
+.logo-text-color {
+    color: var(--color-selected);
+}
+
+.nav-link,
+.header-link {
+    color: var(--color-title);
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.header-link:hover,
+.header-link:focus {
+    color: var(--color-selected);
+}
+
+.button {
+    background-color: var(--color-background);
+    color: var(--color-title);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+    background-color: var(--color-selected);
+}
