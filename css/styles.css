@@ -10,7 +10,7 @@
 body {
   background-color: #ffffff;
   color: var(--color-text);
-  font-family: "Roboto";
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
   font-style: normal;
 }
 
@@ -54,7 +54,6 @@ body {
   text-transform: uppercase;
 }
 .features-text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
@@ -120,7 +119,6 @@ body {
 
 .example-text {
   color: var(--color-text);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;
@@ -166,7 +164,6 @@ body {
 .footer-addr,
 .footer-mail,
 .footer-tel {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
