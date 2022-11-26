@@ -22,11 +22,16 @@ body {
   color: var(--color-selected);
 }
 
-.logo-font,
+.logo-font {
+  color: #000000;
+  font-family: "Raleway";
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
 .footer-logo {
   font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
@@ -34,8 +39,6 @@ body {
 }
 
 .nav-link,
-.header-link,
-.footer-link,
 .features-title {
   color: var(--color-title);
   font-weight: 500;
@@ -45,9 +48,17 @@ body {
   text-decoration: none;
 }
 
+.contact-link {
+  color: var(--color-text);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
 .features-title {
   color: var(--color-title);
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.03em;
@@ -62,7 +73,6 @@ body {
 .work-title,
 .team-title {
   color: var(--color-title);
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.166;
   text-align: center;
@@ -72,9 +82,16 @@ body {
 .team-name {
   color: var(--color-title);
 }
-.team-text,
+
 .team-name {
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.188;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-text {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.188;
   text-align: center;
@@ -83,8 +100,8 @@ body {
 
 .nav-link:hover,
 .nav-link:focus,
-.header-link:hover,
-.header-link:focus {
+.contact-link:hover,
+.contact-link:focus {
   color: var(--color-selected);
 }
 
@@ -102,6 +119,7 @@ body {
 }
 
 .button-font {
+  font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
   line-height: 1.625;
@@ -111,7 +129,6 @@ body {
 
 .example-title {
   color: var(--color-title);
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -149,6 +166,7 @@ body {
 }
 
 .head-button-font {
+  color: #ffffff;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
@@ -156,17 +174,20 @@ body {
   letter-spacing: 0.06em;
 }
 
-.footer-mail,
-.footer-tel {
-  color: rgba(255, 255, 255, 0.6);
+.addr {
+  font-style: normal;
 }
 
-.footer-addr,
-.footer-mail,
-.footer-tel {
+.footer-link {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
+}
+
+.footer-addr {
+  color: #ffffff;
 }
 
 .team {
